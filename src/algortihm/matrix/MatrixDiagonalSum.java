@@ -1,4 +1,4 @@
-package algortihm;
+package algortihm.matrix;
 
 import java.util.Scanner;
 
