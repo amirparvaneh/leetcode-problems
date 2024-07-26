@@ -3,21 +3,20 @@ package algortihm.linkedlist;
 public class LinkedList {
 
     // CREATE CLASS VARIABLES, NODE CLASS, AND CONSTRUCTOR HERE //
-
     private Node head;
     private Node tail;
     private int length;
 
-    class Node{
+    class Node {
         int value;
         Node next;
 
-        public Node(int value){
+        Node(int value) {
             this.value = value;
         }
     }
 
-    public LinkedList(int value){
+    public LinkedList(int value) {
         Node newNode = new Node(value);
         head = newNode;
         tail = newNode;
@@ -50,6 +49,12 @@ public class LinkedList {
 
     public void getLength() {
         System.out.println("Length: " + length);
+    }
+
+    public void makeEmpty() {
+        head = null;
+        tail = null;
+        length = 0;
     }
 
 }
