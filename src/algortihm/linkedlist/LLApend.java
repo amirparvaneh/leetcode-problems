@@ -5,8 +5,8 @@ public class LLApend {
 
         LinkedList myLinkedList = new LinkedList(1);
         myLinkedList.makeEmpty();
-        myLinkedList.append(1);
-        myLinkedList.append(2);
+//        myLinkedList.append(1);
+//        myLinkedList.append(2);
 
         myLinkedList.getHead();
         myLinkedList.getTail();
